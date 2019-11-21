@@ -1,7 +1,7 @@
 <?php
 // phpcs:ignoreFile
 require '../../source/php/class-percentages.php';
-use MZ\Percentages as Percentages;
+use FrisFruitig\Percentages as Percentages;
 
 // We need an array of votes to be passed.
 if ( ! isset( $_GET['votes'] ) ) {

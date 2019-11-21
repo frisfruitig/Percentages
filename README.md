@@ -1,7 +1,5 @@
 # Percentages
 
-**Important**: this repository is no longer actively maintained. It has been transferred to https://github.com/frisfruitig/Percentages.
-
 ![NPM Version](https://img.shields.io/npm/v/percentages)
 
 A small `JavaScript` and `PHP` class for calculating percentages that solves rounding issues.
@@ -48,7 +46,7 @@ const votesPercentages = new Percentages(votes).corrected;
 ```php
 // For comparison reasons, the function returns more than the corrected percentages
 require_once 'path/to/class-percentages.php';
-use MZ\Percentages as Percentages;
+use FrisFruitig\Percentages as Percentages;
 
 $votes         = array( 12, 30, 2, 7, 15 );
 $percentages   = new Percentages( $votes );

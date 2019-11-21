@@ -4,13 +4,13 @@
  * Additionally, both the sum of the rounded and the corrected percentages are returned.
  *
  * @package    Percentages
- * @author     Maarten Zilverberg <maarten@mzilverberg.nl>
+ * @author     FrisFruitig <info@frisfruitig.com>
  * @license    https://www.gnu.org/licenses/gpl-2.0.html GPLv2
- * @link       https://github.com/mzilverberg/Percentages
- * @version    2.1.1
+ * @link       https://github.com/frisfruitig/Percentages
+ * @version    3.0.0
  */
 
-namespace MZ;
+namespace FrisFruitig;
 
 /**
  * Class that handles percentages through the largest remainder method.

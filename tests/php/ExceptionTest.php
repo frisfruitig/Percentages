@@ -2,7 +2,7 @@
 // phpcs:ignoreFile
 // Require class file.
 require_once '../source/php/class-percentages.php';
-use MZ\Percentages as Percentages;
+use FrisFruitig\Percentages as Percentages;
 
 // Automated tests.
 class ExceptionTest extends PHPUnit_Framework_TestCase {
